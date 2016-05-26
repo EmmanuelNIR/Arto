@@ -49,8 +49,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DAO\Context.cs" />
+    <Compile Include="Models\Competition.cs" />
     <Compile Include="Models\Figure.cs" />
     <Compile Include="Models\FigureInSet.cs" />
+    <Compile Include="Models\Joueur.cs" />
     <Compile Include="Models\Parcour.cs" />
     <Compile Include="Models\Set.cs" />
     <Compile Include="Program.cs" />
