@@ -19,5 +19,12 @@ namespace TestEF.DAO
         public DbSet<Set> Sets { get; set; }
         public DbSet<Figure> Figures { get; set; }
         public DbSet<FigureInSet> FiguresInSet{ get; set; }
+
+        //protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        //{
+
+        //}
     }
+
+    
 }

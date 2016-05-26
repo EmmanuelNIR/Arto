@@ -14,6 +14,6 @@ namespace TestEF.Models
         public string Name { get; set; }
 
         public Parcour Parcour { get; set; }
-        public virtual ICollection<FigureInSet> FiguresInSet { get; set; }
+        public virtual ICollection<FigureInSet> FigureInSets { get; set; }
     }
 }

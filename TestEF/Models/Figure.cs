@@ -14,6 +14,6 @@ namespace TestEF.Models
         public long Id { get; set; }
         public int Coefficient { get; set; }
 
-        public virtual ICollection<FigureInSet> FiguresInSet { get; set; }
+        public virtual ICollection<FigureInSet> FigureInSets { get; set; }
     }
 }
